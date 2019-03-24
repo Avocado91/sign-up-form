@@ -7,5 +7,5 @@ signUpButton.addEventListener("click", () => {
 })
 
 signInButton.addEventListener("click", () => {
-  container.classList.add("left-panel-active")
+  container.classList.remove("left-panel-active")
 })
